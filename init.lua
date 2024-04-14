@@ -876,6 +876,7 @@ require('lazy').setup({
     },
   },
 })
-
+--custom keymaps
+vim.keymap.set('n', '<C-e>', ':Neotree toggle<cr>')
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

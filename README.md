@@ -273,3 +273,6 @@ sudo dnf install -y gcc make git ripgrep fd-find neovim
 ```
 </details>
 
+
+# godot stuff
+` --server ./godothost --remote-send "<C-\><C-N>:n {file}<CR>{line}G{col}|" `
